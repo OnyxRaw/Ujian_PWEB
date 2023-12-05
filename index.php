@@ -48,7 +48,7 @@ include "db_conn.php";
 
   </nav>
 
-  <<div class="container">
+  <div class="container">
     <?php
     if (isset($_GET["msg"])) {
       $msg = $_GET["msg"];
